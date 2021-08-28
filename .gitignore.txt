@@ -1,0 +1,8 @@
+./DATA/no_repeats.csv
+./sfddata-master/SFD_dust_4096_ngp.fits
+./sfddata-master/SFD_dust_4096_sgp.fits
+./sfddata-master/SFD_mask_4096_ngp.fits
+./sfddata-master/SFD_mask_4096_sgp.fits
+./.ipynb_checkpoints
+./easy_photoz/.ipynb_checkpoints
+./easy_photoz/__pycache__
