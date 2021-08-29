@@ -64,11 +64,17 @@ posteriors = mymodel(X,training=False)
 ## Performance
 At a glance...
 
-A few different papers had differeing definitions for these values, below I compute with each of these slightly different characteristics.
+A few different papers had differeing definitions for these values, below I compute each of these slightly different characteristics.
 
 ![MLP Performance](/IMAGES/MLP_performance.PNG)
 
 ![MLP PIT](/IMAGES/MLP_PIT.PNG)
+
+For an introduction to Photo-Z metrics and this PIT visual metric I show above, [S.J. Schmidt et. al., 2021](https://arxiv.org/pdf/2001.03621.pdf) is a good guide
+
+Before metrics, here is a sample of 4 different posteriors from my network:
+
+![posteriors](/IMAGES/posteriors.PNG)
 
 ```bash
 Pasquets Defintions: 
