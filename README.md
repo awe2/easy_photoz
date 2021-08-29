@@ -9,12 +9,12 @@ A command line tool for (PanStarrs)[https://panstarrs.stsci.edu/] Photometric Re
 git clone this repository
 
 ```bash
-git clone XXX
+git clone https://github.com/awe2/easy_photoz.git
 ```
-pip install requirements
+install dependencies
 
 ```bash
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
 
 download sfddata-master and place in root of this repo
@@ -48,10 +48,27 @@ posterior, point_estimate, err, returned_objids = easy_photoz_objid(objid)
 #this returns which objids correspond to each returned value
 ```
 
+Since the model is just a keras/tensorflow model, you can always load it in your own workflow as...
+
+```python
+import tensorflow as tf
+
+mymodel = tf.keras.models.load_model('./MLP.hdf5',custom_objects={'leaky_relu':tf.keras.layers.leaky_relu})
+
+#then do inference as:
+posteriors = mymodel(X,training=False)
+
+#see notebooks for details on how to prepare data vector X
+```
+
 ## Performance
 At a glance...
 
 A few different papers had differeing definitions for these values, below I compute with each of these slightly different characteristics.
+
+![MLP Performance](https://github.com/awe2/easy_photoz/IMAGES/MLP_Performance.png)
+
+![MLP PIT](https://github.com/awe2/easy_photoz/IMAGES/MLP_PIT.png)
 
 ```bash
 Pasquets Defintions: 
@@ -70,9 +87,9 @@ STD:  0.0257
 BIAS:  0.0018
 P0:  Actually they dont well define this metric
  
-#########################################
-Comparison to authors who did similar work
-
+####################################
+#comparison to other works:
+ 
 Tarrio 2020s STD: 0.0298
 Tarrio 2020s BIAS: -2.01e-4
  
