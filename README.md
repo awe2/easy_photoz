@@ -23,6 +23,8 @@ wget https://github.com/kbarbary/sfddata/archive/master.tar.gz
 tar xzf master.tar.gz
 ```
 
+Although you do not need it for inference mode, the training data can be grabbed from [here](https://drive.google.com/drive/folders/1tdjogtnGNolk4cV9FWxaMmM5Gunp26Kz?usp=sharing)
+
 ## Command Line Tool Usage
 
 example: 
@@ -81,7 +83,9 @@ Beck 2019s BIAS: 5e-4
 ```
 
 [Pasquet Paper](https://www.aanda.org/articles/aa/full_html/2019/01/aa33617-18/aa33617-18.html) (not a direct comparison, but their paper was highly influential in this work)
+
 [Beck Paper](https://arxiv.org/pdf/1910.10167.pdf) (Most direct comparison. I'm sure our datasets differ slightly, despite my best attempts)
+
 [Tarrio Paper](https://www.aanda.org/articles/aa/full_html/2020/10/aa38415-20/aa38415-20.html)
 
 
@@ -92,6 +96,8 @@ This code was developed while I was a student at the University of Illinois at U
 ## Kudos
 
 This code was developed while I was a student at the University of Illinois at Urbana Champaign, working as an undergraduate researcher under [Prof. Gautham Narayan](https://gnarayan.github.io/). Similar code (including the model provided here) was implemented as part of the repo [Astro-Ghost](https://github.com/uiucsn/astro_ghost) with the help of [Alexander Gagliano](https://alexandergagliano.github.io/). The model trained here is implemented as part of the [Young Supernovae Experiment's]() Photometric redshift pipeline.
+
+Another kudos should go to [Kyle Barbary](http://kylebarbary.com/) and his [dust maps](https://github.com/kbarbary/sfdmap) repo; which is a dependency here
 
 ## Citable
 
