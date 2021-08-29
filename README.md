@@ -66,9 +66,9 @@ At a glance...
 
 A few different papers had differeing definitions for these values, below I compute with each of these slightly different characteristics.
 
-![MLP Performance](https://github.com/awe2/easy_photoz/IMAGES/MLP_Performance.png)
+![MLP Performance](/IMAGES/MLP_performance.PNG)
 
-![MLP PIT](https://github.com/awe2/easy_photoz/IMAGES/MLP_PIT.png)
+![MLP PIT](/IMAGES/MLP_PIT.PNG)
 
 ```bash
 Pasquets Defintions: 
@@ -99,11 +99,11 @@ Beck 2019s STD: 0.0322
 Beck 2019s BIAS: 5e-4
 ```
 
-[Pasquet Paper](https://www.aanda.org/articles/aa/full_html/2019/01/aa33617-18/aa33617-18.html) (not a direct comparison, but their paper was highly influential in this work)
+[J. Pasquet, et. al., 2019 Paper](https://www.aanda.org/articles/aa/full_html/2019/01/aa33617-18/aa33617-18.html) (not a direct comparison, but their paper was highly influential in this work)
 
-[Beck Paper](https://arxiv.org/pdf/1910.10167.pdf) (Most direct comparison. I'm sure our datasets differ slightly, despite my best attempts)
+[R. Beck, et. al., 2019 Paper](https://arxiv.org/pdf/1910.10167.pdf) (Most direct comparison. I'm sure our datasets differ slightly, despite my best attempts)
 
-[Tarrio Paper](https://www.aanda.org/articles/aa/full_html/2020/10/aa38415-20/aa38415-20.html)
+[P. Tarrio, et. al., 2020 Paper](https://www.aanda.org/articles/aa/full_html/2020/10/aa38415-20/aa38415-20.html)
 
 
 ## Development/About the Author
