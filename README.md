@@ -118,7 +118,7 @@ This code was developed while I was a student at the University of Illinois at U
 
 ## Kudos
 
-This code was developed while I was a student at the University of Illinois at Urbana Champaign, working as an undergraduate researcher under [Prof. Gautham Narayan](https://gnarayan.github.io/). Similar code (including the model provided here) was implemented as part of the repo [Astro-Ghost](https://github.com/uiucsn/astro_ghost) with the help of [Alexander Gagliano](https://alexandergagliano.github.io/). The model trained here is implemented as part of the [Young Supernovae Experiment's]() Photometric redshift pipeline.
+This code was developed while I was a student at the University of Illinois at Urbana Champaign, working as an undergraduate researcher under [Prof. Gautham Narayan](https://gnarayan.github.io/). Similar code (including the model provided here) was implemented as part of the repo [Astro-Ghost](https://github.com/uiucsn/astro_ghost) with the help of [Alexander Gagliano](https://alexandergagliano.github.io/). The model trained here is implemented as part of the [Young Supernovae Experiment's]() Photometric redshift pipeline, among other photo-z methods.
 
 Another kudos should go to [Kyle Barbary](http://kylebarbary.com/) and his [dust maps](https://github.com/kbarbary/sfdmap) repo; which is a dependency here
 
