@@ -66,9 +66,9 @@ At a glance...
 
 A few different papers had differeing definitions for these values, below I compute with each of these slightly different characteristics.
 
-![MLP Performance](https://github.com/awe2/easy_photoz/tree/main/IMAGES/MLP_performance.PNG)
+![MLP Performance](/IMAGES/MLP_performance.PNG)
 
-![MLP PIT](https://github.com/awe2/easy_photoz/tree/main/IMAGES/MLP_PIT.PNG)
+![MLP PIT](/IMAGES/MLP_PIT.PNG)
 
 ```bash
 Pasquets Defintions: 
