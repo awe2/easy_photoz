@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A command line tool for (PanStarrs)[https://panstarrs.stsci.edu/] Photometric Redshift estimation, using methods similar to [Beck et. al., 2019](https://arxiv.org/pdf/1910.10167.pdf)
+A command line tool for [PanStarrs](https://panstarrs.stsci.edu/) Photometric Redshift estimation, using methods similar to [Beck et. al., 2019](https://arxiv.org/pdf/1910.10167.pdf)
 
 ## Installation
 
