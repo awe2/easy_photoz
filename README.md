@@ -124,7 +124,7 @@ Another kudos should go to [Kyle Barbary](http://kylebarbary.com/) and his [dust
 
 ## Citable
 
-Consider citing GHOST. A indivdual paper for this repository is work in progress.
+Consider citing GHOST. An indivdual paper for this repository is work in progress.
 
 ```bash
 @article{GHOST21,
