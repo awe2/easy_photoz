@@ -124,4 +124,19 @@ Another kudos should go to [Kyle Barbary](http://kylebarbary.com/) and his [dust
 
 ## Citable
 
-Paper coming soon-- for now please drop a link to this page 
+Consider citing GHOST. A indivdual paper for this repository is work in progress.
+
+@article{GHOST21,
+	doi = {10.3847/1538-4357/abd02b},
+	url = {https://doi.org/10.3847/1538-4357/abd02b},
+	year = 2021,
+	month = {feb},
+	publisher = {American Astronomical Society},
+	volume = {908},
+	number = {2},
+	pages = {170},
+	author = {Alex Gagliano and Gautham Narayan and Andrew Engel and Matias Carrasco Kind and},
+	title = {{GHOST}: Using Only Host Galaxy Information to Accurately Associate and Distinguish Supernovae},
+	journal = {The Astrophysical Journal},
+	abstract = {We present GHOST, a database of 16,175 spectroscopically classified supernovae (SNe) and the properties of their host galaxies. We have constructed GHOST using a novel host galaxy association method that employs deep postage stamps of the field surrounding a transient. Our gradient ascent method achieves fewer misassociations for low-z hosts and higher completeness for high-z hosts than previous methods. Using dimensionality reduction, we identify the host galaxy properties that distinguish SN classes. Our results suggest that the host galaxies of superluminous SNe, Type Ia SNe, and core-collapse SNe can be separated by brightness and derived extendedness measures. Next, we train a random forest model to predict SN class using only host galaxy information and the radial offset of the SN. We can distinguish Type Ia SNe and core-collapse SNe with ∼70\% accuracy without any photometric or spectroscopic data from the event itself. Vera C. Rubin Observatory will usher in a new era of transient population studies, demanding improved photometric tools for rapid identification and classification of transient events. By identifying the host features with high discriminatory power, we will maintain SN sample purities and continue to identify scientifically relevant events as data volumes increase. The GHOST database and our corresponding software for associating transients with host galaxies are both publicly available through the astro_ghost package.}
+}
