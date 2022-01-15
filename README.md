@@ -114,7 +114,7 @@ Beck 2019s BIAS: 5e-4
 
 ## Development/About the Author
 
-This code was developed while I was a student at the University of Illinois at Urbana Champaign; I have since begun work as a Data Scientist focussing on Artificial Intelligence at Pacific Northwest National Laboratory. That is to say, I work on this codebase in my spare time and may be slow to respond to requests-- though they are always welcome. I intend this code & dataset to be a launch pad for a few hair-brained ideas I have in Applied AI.
+This code was developed while I was a student at the University of Illinois at Urbana Champaign; I have since begun work as a Data Scientist focussing on Artificial Intelligence at Pacific Northwest National Laboratory. That is to say, I work on this codebase in my spare time and may be slow to respond to requests-- though they are always welcome.
 
 ## Kudos
 
